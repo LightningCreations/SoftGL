@@ -1,4 +1,4 @@
-git rm -r --cached .
+#!/bin/bash
 git add .
 git commit
 git pull
