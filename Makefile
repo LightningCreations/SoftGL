@@ -12,4 +12,4 @@ clean:
 libGL.so.1: $(GL_OBJ)
 	$(CC) -shared -o $@ $?
 %.o: %.c
-	$(CC) -fPIC -c -o $@ $?
+	$(CC) -Wno-incompatible-pointer-types -Wno-pointer-sign -fPIC -c -o $@ $?
