@@ -449,7 +449,6 @@ void            glBindBuffer                            (GLenum target, GLuint b
 void            glDeleteBuffers                         (GLsizei n, GLuint const *buffers)
 void            glGenBuffers                            (GLsizei n, GLuint *buffers)
 GLboolean       glIsBuffer                              (GLuint buffer)
-void            glBufferData                            (GLenum target, GLsizeiptr size, GLenum usage)
 void            glBufferData                            (GLenum target, GLsizeiptr size, void const *data, GLenum usage)
 void            glBufferSubData                         (GLenum target, GLintptr offset, void const *data)
 void            glGetBufferSubData                      (GLenum target, GLintptr offset, void *data)
