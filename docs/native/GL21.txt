@@ -1,0 +1,6 @@
+void            glUniformMatrix2x3fv                    (GLint location, GLboolean transpose, GLfloat const *value)
+void            glUniformMatrix2x4fv                    (GLint location, GLboolean transpose, GLfloat const *value)
+void            glUniformMatrix3x2fv                    (GLint location, GLboolean transpose, GLfloat const *value)
+void            glUniformMatrix3x4fv                    (GLint location, GLboolean transpose, GLfloat const *value)
+void            glUniformMatrix4x2fv                    (GLint location, GLboolean transpose, GLfloat const *value)
+void            glUniformMatrix4x3fv                    (GLint location, GLboolean transpose, GLfloat const *value)
